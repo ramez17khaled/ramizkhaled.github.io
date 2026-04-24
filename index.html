@@ -314,6 +314,47 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5%;display:flex;justify
       <a class="btn-primary" href="#projects">View Projects</a>
       <a class="btn-secondary" href="#contact">Get in Touch</a>
     </div>
+    <div style="margin-top:20px;">
+      <a href="assets/RK-CV.pdf" 
+         download="Ramiz_Khaled_CV.pdf"
+         style="
+           display:inline-flex;
+           align-items:center;
+           gap:10px;
+           padding:12px 18px;
+           border-radius:10px;
+           background:rgba(255,255,255,0.05);
+           backdrop-filter:blur(10px);
+           border:1px solid rgba(255,255,255,0.1);
+           color:white;
+           font-weight:500;
+           text-decoration:none;
+           transition:all 0.25s ease;
+         "
+         onmouseover="this.style.transform='translateY(-3px)';this.style.background='rgba(255,255,255,0.1)';this.querySelector('svg').style.transform='scale(1.15) rotate(-5deg)';this.querySelector('svg').style.color='#ff4d4f';"
+         onmouseout="this.style.transform='translateY(0)';this.style.background='rgba(255,255,255,0.05)';this.querySelector('svg').style.transform='scale(1) rotate(0)';this.querySelector('svg').style.color='white';"
+      >
+        <span style="display:flex;align-items:center;">
+          <svg viewBox="0 0 24 24" fill="currentColor" 
+               style="width:20px;height:20px;transition:all 0.25s ease;">
+            <path d="M6 2C4.9 2 4 2.9 4 4v16c0 
+            1.1.9 2 2 2h12c1.1 0 2-.9 
+            2-2V8l-6-6H6zm7 1.5L18.5 
+            9H13V3.5zM8 13h2.5c1.4 0 
+            2.5 1.1 2.5 2.5S11.9 18 
+            10.5 18H9v2H8v-7zm1 1v3h1.5c.8 
+            0 1.5-.7 1.5-1.5S11.3 14 
+            10.5 14H9zm5-1h1.5c1.4 0 
+            2.5 1.1 2.5 2.5S16.9 18 
+            15.5 18H14v2h-1v-7zm1 
+            1v3h.5c.8 0 1.5-.7 
+            1.5-1.5S16.3 14 
+            15.5 14H15z"/>
+          </svg>
+        </span>
+        <span>Download CV (PDF)</span>
+      </a>
+    </div>
     <div class="hero-stats">
       <div class="stat"><div class="stat-n">2+</div><div class="stat-l">Years Experience</div></div>
       <div class="stat"><div class="stat-n">5+</div><div class="stat-l">Research Orgs</div></div>
@@ -461,7 +502,25 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5%;display:flex;justify
           <p>Whether you're a pharma company, biotech startup, or research team — available for full-time roles, collaborations, and consulting projects.</p>
           <a class="contact-link" href="mailto:ramezkh18@gmail.com"><div class="contact-link-icon">✉️</div><div><div class="contact-link-text" id="contactEmail">ramezkh18@gmail.com</div><div style="font-size:10px;color:var(--text3)">Email</div></div></a>
           <a class="contact-link" href="tel:+33749148277"><div class="contact-link-icon">📞</div><div><div class="contact-link-text" id="contactPhone">+33 7 49 14 82 77</div><div style="font-size:10px;color:var(--text3)">Phone · Paris</div></div></a>
-          <a class="contact-link" id="linkedinLink" href="#" target="_blank"><div class="contact-link-icon">💼</div><div><div class="contact-link-text">LinkedIn Profile</div><div style="font-size:10px;color:var(--text3)">Professional network</div></div></a>
+          <a class="contact-link" id="linkedinLink" href="#" target="_blank">
+            <div class="contact-link-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452H16.9V14.87c0-1.331-.025-3.045-1.854-3.045-1.856 
+                0-2.14 1.45-2.14 2.949v5.678H9.359V9h3.406v1.561h.049c.475-.9 
+                1.637-1.85 3.367-1.85 3.598 0 4.263 2.368 4.263 5.455v6.286zM5.337 
+                7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.919-2.063 
+                2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.924 
+                2.065-2.064 2.065zM6.978 20.452H3.691V9h3.287v11.452zM22.225 
+                0H1.771C.792 0 0 .771 0 1.723v20.549C0 23.229.792 24 
+                1.771 24h20.451C23.2 24 24 23.229 24 
+                22.271V1.723C24 .771 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-link-text">LinkedIn</div>
+              <div style="font-size:10px;color:var(--text3)">Professional network</div>
+            </div>
+          </a>
           <a class="contact-link" id="githubLink" href="#" target="_blank">
             <div class="contact-link-icon">
               <svg height="20" viewBox="0 0 16 16" fill="currentColor">
